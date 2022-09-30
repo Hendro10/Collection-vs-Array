@@ -37,6 +37,7 @@ class CollectionController extends Controller
 
     public function collectionTiga()
     {
+        // dipakai untuk mendeteksi apakah sebuah variabel berisi collection atau array
         $varA = [1,2,3];
         $varB = collect([1,2,3]);
         dump($varA);
